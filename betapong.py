@@ -95,7 +95,7 @@ class Listener(ConnectionListener):
 						
 					elif event.type == pygame.KEYUP:
 						# if key are released stop the movement
-						if event.key in (111, 107):
+						if event.key in (pygame.K_UP, pygame.K_DOWN):
 							self.movement[self.num] = 0
 			
 			# clear the screen
