@@ -6,6 +6,9 @@ from PodSixNet.Connection import connection, ConnectionListener
 # init pygame
 pygame.init()
 
+pygame.mixer.music.load('music/guitar-electro-sport-trailer-115571.mp3')
+pygame.mixer.music.play()
+
 # class for I/O on network
 # this represent the player, too
 class Listener(ConnectionListener):

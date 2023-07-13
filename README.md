@@ -9,3 +9,4 @@ Use the up and down keys to play.
 
 ## Credits
 This game is originally based on [Francesco Pasa's NetPong](https://www.pygame.org/project-NetPong-1377-.html).
+The music is "Guitar Electro Sport Trailer" by Gvidon
